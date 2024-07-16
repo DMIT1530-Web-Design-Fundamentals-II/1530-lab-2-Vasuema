@@ -1,24 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Gelato Grotto</title>
 
     <!-- Make sure to replace this content with your own. -->
-    <meta name="author" content="Valerie Watson | vwatson@nait.ca">
-    <meta name="description" content="This website demonstrates how to create a simple single-level drop-down menu.">
+    <meta name="author" content="Valerie Watson | vwatson@nait.ca" />
+    <meta
+      name="description"
+      content="This website demonstrates how to create a simple single-level drop-down menu."
+    />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Gelato Grotto</h1>
+      <nav>
+        <h2 class="hidden">Navigation</h2>
+        <ul class="menu">
+          <li><a href="#">current flavors</a></li>
+          <li>
+            <a href="#"
+              >about
+              <img
+                src="img/arrow-down-sign-to-navigate.svg"
+                alt="arrow down svg"
+            /></a>
+            <ul class="submenu">
+              <li><a href="#">our story</a></li>
+              <li><a href="#">farms</a></li>
+              <li><a href="#">collaborators</a></li>
+              <li><a href="#">sustainability</a></li>
+              <li><a href="@">FAQs</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"
+              >shops
+              <img
+                src="img/arrow-down-sign-to-navigate.svg"
+                alt="arrow down svg"
+              />
+            </a>
+            <ul>
+              <li><a href="#">coolangatta</a></li>
+              <li><a href="#">fortitude valley</a></li>
+              <li><a href="#">mooloolaba beach</a></li>
+              <li><a href="#">south brisbane</a></li>
+            </ul>
+          </li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h2 class="hidden">Banner</h2>
+        <img src="img/grapefruit-bg.jpg" alt="hero banner of ice cream cone" />
+        <section class="copy-with-button">
+          <h2>gelato & chill</h2>
+          <p>We'll be here for you when summer gets too hot to handle.</p>
+          <a href="#">find a shop</a>
+        </section>
+      </section>
+    </header>
+  </body>
 </html>

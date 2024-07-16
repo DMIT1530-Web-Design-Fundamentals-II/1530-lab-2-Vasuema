@@ -15,17 +15,15 @@ font-family: 'Pacifico', cursive;
 */
 
 /* UNIVERSAL STYLES */
-
-
+.hidden{
+    display: none;
+}
 /* MOBILE VIEW */
-
 
 /* DESKTOP VIEW */
 @media screen and (min-width: 720px) {
-
 }
 
 /* LARGEST VIEW */
 @media screen and (min-width: 1024px) {
-    
 }
